@@ -1,4 +1,4 @@
-self.addEventListener(push, ()=>{
+self.addEventListener('push', ()=>{
     self.registration.sendNotification('test message',{
 
     });
